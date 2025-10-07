@@ -1,0 +1,163 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+
+.move {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 50px;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.pick {
+    height: 50px;
+}
+
+.score {
+    margin-top: 60px;
+}
+
+.reset,
+.auto-play-button {
+    font-size: 15px;
+    padding: 8px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} */
+
+
+/**********************************/
+
+
+/*Responsive Code*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Game buttons */
+.move {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.move:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+/* Icons inside buttons */
+.icon {
+    height: 50px;
+    width: auto;
+}
+
+/* Texts */
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.pick {
+    height: 50px;
+}
+
+.score {
+    margin-top: 40px;
+}
+
+/* Buttons (Reset, Auto Play, etc.) */
+.reset,
+.auto-play-button {
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reset:hover,
+.auto-play-button:hover {
+    background-color: #ddd;
+}
+
+/* 🔹 Responsive Design for smaller screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .move {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        margin: 8px;
+    }
+
+    .icon {
+        height: 35px;
+    }
+
+    .result {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .score {
+        margin-top: 30px;
+    }
+
+    .reset,
+    .auto-play-button {
+        width: 55%;
+        font-size: 16px;
+    }
+}
+
+/* 🔸 Extra responsiveness for very small screens (e.g., 350px wide phones) */
+@media (max-width: 400px) {
+    .move {
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+    }
+
+    .icon {
+        height: 30px;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+}

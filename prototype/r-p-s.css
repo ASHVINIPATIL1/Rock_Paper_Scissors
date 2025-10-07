@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+
+.move {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 50px;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.pick {
+    height: 50px;
+}
+
+.score {
+    margin-top: 60px;
+}
+
+.reset {
+    font-size: 15px;
+    padding: 8px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
